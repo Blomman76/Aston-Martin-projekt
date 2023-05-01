@@ -116,8 +116,15 @@ button:hover {
   display: flex;
 }
 
+.f1 {
+  margin-top: 15vh;
+  margin-left: 5vw;
+  width: 20vw;
+  height: 25vh;
+  animation: rotation 5s infinite linear;
+}
+
 .textbubbla {
-  border: solid red;
   width: 50%;
   height: 57%;
   margin-top: 20%;
@@ -125,4 +132,18 @@ button:hover {
   background-size: contain;
   text-align: center;
   padding-top: 10%;
+  font-family: "Sigmar", cursive;
+}
+.text_i_bubbla {
+  width: 60%;
+  margin-left: 20%;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
