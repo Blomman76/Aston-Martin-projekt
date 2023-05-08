@@ -29,3 +29,9 @@ document.getElementById("buyshirt").addEventListener("click", () => {
     // JSON.stringify(objekt) skapar en sträng på JSON-format av ett objekt.
     localStorage.setItem("products", JSON.stringify(products))
   }
+
+
+
+
+  // ______________________________________
+
