@@ -13,7 +13,7 @@
   height: 850px;
 }
 
-.rubrik {
+.navbar {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -38,7 +38,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 24px;
+  padding: 0 20px;
 }
 
 .menu {
@@ -50,6 +50,7 @@ li {
 
 .menulink {
   transition: 0.7s ease;
+  color: rgb(13, 158, 141);
 }
 
 .menulink:hover {
@@ -73,12 +74,15 @@ li {
 
 .fa-solid {
   color: white;
+  width: 65px;
 }
 
 /* _________________________________ */
 
-.bajs {
+.rubrik {
   text-decoration: underline;
+  margin-top: 2vh;
+  font-size: xx-large;
 }
 
 .background {
@@ -193,13 +197,14 @@ li {
 }
 
 .textbubbla {
-  width: 50%;
-  height: 57%;
+  height: 60%;
+  width: 40%;
+  margin-left: 10%;
   margin-top: 20%;
-  background-image: url(textbubbla.png);
-  background-size: contain;
+  border: solid black;
+  border-radius: 50%;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 8%;
 }
 
 .text_i_bubbla {
@@ -304,6 +309,23 @@ button:hover {
   font-size: 15px;
   padding: 2px;
   width: 6%;
+}
+
+/* media__________________________ */
+
+@media (max-width: 1500px) {
+  video {
+    display: none;
+  }
+  .main {
+    background-image: url(astonbackground.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .textbubbla {
+    height: 40%;
+  }
 }
 
 /* hamburger media__________________________ */
