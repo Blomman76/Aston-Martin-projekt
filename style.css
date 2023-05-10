@@ -114,12 +114,12 @@ li {
 }
 
 .ett {
-  background-image: url(clothing.webp);
+  background-image: url(bilder/clothing.webp);
   background-size: cover;
 }
 
 .två {
-  background-image: url(F1\ drivers.avif);
+  background-image: url(bilder/F1\ drivers.avif);
   background-size: cover;
 }
 
@@ -311,6 +311,18 @@ button:hover {
   width: 6%;
 }
 
+/* shoppingcart______________________ */
+
+.cart {
+  font-size: larger;
+}
+
+.cartpart {
+  border: solid black;
+  width: 100%;
+  text-align: center;
+}
+
 /* media__________________________ */
 
 @media (max-width: 1500px) {
@@ -318,7 +330,7 @@ button:hover {
     display: none;
   }
   .main {
-    background-image: url(astonbackground.jpeg);
+    background-image: url(bilder/astonbackground.jpeg);
     background-size: cover;
     background-position: center;
   }

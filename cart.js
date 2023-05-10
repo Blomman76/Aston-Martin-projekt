@@ -17,3 +17,20 @@ if (Array.isArray(products)) {
 } else {
   cartDiv.insertAdjacentHTML("beforeend", `<div>Varukorgen är tom.</div>`)
 }
+
+let Tabort = document.getElementById("delete")
+
+
+function cleanLocalStorage() {
+  for(key in localStorage) {
+      delete localStorage[key];
+  }
+}
+
+
+Tabort.addEventListener("click", ()=>{
+  cleanLocalStorage()
+  location.reload()
+})
+
+
