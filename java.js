@@ -35,3 +35,15 @@ document.getElementById("buyshirt").addEventListener("click", () => {
 
   // ______________________________________
 
+
+let namn = document.getElementById("Name");
+let username = document.getElementById("Username");
+let password = document.getElementById("Password");
+let knapp = document.getElementById("knapp");
+let form = document.getElementById("formulär");
+
+
+knapp.addEventListener("click", ()=>{
+  form.insertAdjacentHTML("beforeend", `<div>Ditt namn är ${namn.value}, ditt username är ${username.value} och dit lösenord är ${password.value}</div>`)
+  location.reload()
+})

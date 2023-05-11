@@ -8,7 +8,7 @@
 
 /* main______________________________________ */
 
-.main {
+.head {
   width: 100%;
   height: 850px;
 }
@@ -252,7 +252,7 @@ li {
 
 /* store______________________________________ */
 
-main {
+.mittensida {
   background-color: black;
   height: 100vh;
 }
@@ -323,13 +323,65 @@ button:hover {
   text-align: center;
 }
 
+/* f1_______________________ */
+
+.info {
+  border: solid black;
+  width: 50%;
+  height: 100vh;
+  text-align: center;
+}
+
+.information {
+  font-size: 75%;
+}
+
+.bild {
+  height: 50vh;
+  width: 100%;
+  background-image: url(bilder/F1\ drivers.avif);
+  background-size: cover;
+  background-position: center;
+}
+
+#formulär {
+  border: solid black;
+  width: 50%;
+  height: 100vh;
+  text-align: center;
+}
+
+.rubrik_formulär {
+  margin: 5vh 0;
+  text-decoration: underline;
+}
+
+input {
+  width: 100%;
+  margin: 2.5vh 0;
+  display: inline-block;
+}
+
+input:hover {
+  transition: 0.8s;
+  background-color: rgb(216, 229, 233);
+}
+
+#knapp {
+  width: fit-content;
+}
+
+.knapp:hover {
+  width: 4vw;
+}
+
 /* media__________________________ */
 
 @media (max-width: 1500px) {
   video {
     display: none;
   }
-  .main {
+  .head {
     background-image: url(bilder/astonbackground.jpeg);
     background-size: cover;
     background-position: center;
