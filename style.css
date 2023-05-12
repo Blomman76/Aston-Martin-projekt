@@ -6,9 +6,9 @@
   box-sizing: border-box;
 }
 
-/* main______________________________________ */
+/* gemensamt mellan sidor______________________________________ */
 
-.head {
+.heading {
   width: 100%;
   height: 850px;
 }
@@ -26,8 +26,6 @@
   position: sticky;
   top: 0;
 }
-
-/* ____________________________________________ */
 
 li {
   list-style: none;
@@ -77,12 +75,22 @@ li {
   width: 65px;
 }
 
-/* _________________________________ */
-
 .rubrik {
   text-decoration: underline;
   margin-top: 2vh;
   font-size: xx-large;
+}
+
+.secondmain {
+  display: flex;
+  font-size: xx-large;
+}
+
+/* header_________________________________ */
+
+.heading {
+  width: 100%;
+  height: 850px;
 }
 
 .background {
@@ -92,11 +100,6 @@ li {
 }
 
 /* second main___________________________________________ */
-
-.secondmain {
-  display: flex;
-  font-size: xx-large;
-}
 
 .sektion {
   width: 100%;
@@ -404,6 +407,7 @@ input:hover {
   );
   margin-top: 7.5vh;
   height: 12vh;
+  overflow: auto;
 }
 
 .roliga_figurer {
