@@ -323,6 +323,24 @@ button:hover {
   text-align: center;
 }
 
+.tabortdiv {
+  border: solid black;
+  height: 50vh;
+  width: 100%;
+  text-align: center;
+}
+
+#delete {
+  margin-top: 5vh;
+  font-size: 50px;
+  background-color: red;
+  color: white;
+  border: solid white;
+  width: 30vw;
+  height: 30vh;
+  border-radius: 50%;
+}
+
 /* f1_______________________ */
 
 .info {
@@ -373,6 +391,34 @@ input:hover {
 
 .knapp:hover {
   width: 4vw;
+}
+
+#Rabatt {
+  border: solid black;
+  background: rgb(1, 56, 15);
+  background: linear-gradient(
+    119deg,
+    rgba(1, 56, 15, 1) 0%,
+    rgba(44, 255, 0, 1) 58%,
+    rgba(178, 255, 188, 1) 100%
+  );
+  margin-top: 7.5vh;
+  height: 12vh;
+}
+
+.roliga_figurer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 3%;
+  justify-content: space-around;
+}
+
+.fa-hippo {
+  color: black;
+}
+
+.fa-cat {
+  color: black;
 }
 
 /* media__________________________ */
