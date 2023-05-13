@@ -1,0 +1,29 @@
+/* shoppingcart______________________ */
+
+.cart {
+  font-size: larger;
+}
+
+.cartpart {
+  border: solid black;
+  width: 100%;
+  text-align: center;
+}
+
+.tabortdiv {
+  border: solid black;
+  height: 50vh;
+  width: 100%;
+  text-align: center;
+}
+
+#delete {
+  margin-top: 5vh;
+  font-size: 50px;
+  background-color: red;
+  color: white;
+  border: solid white;
+  width: 30vw;
+  height: 30vh;
+  border-radius: 50%;
+}

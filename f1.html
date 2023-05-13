@@ -4,11 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="gemensam.css" />
+    <link rel="stylesheet" href="f1.css" />
     <script
       src="https://kit.fontawesome.com/5665df7647.js"
       crossorigin="anonymous"
     ></script>
+    <script src='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css' rel='stylesheet' />
     <title>F1</title>
   </head>
   <body>
@@ -65,10 +68,7 @@
           </form>
           <button id="knapp">Submit</button>
           <div id="Rabatt"></div>
-          <div class="roliga_figurer">
-            <i class="fa-solid fa-cat fa-2x"></i>
-            <i class="fa-solid fa-hippo fa-2x"></i>
-          </div>
+          <div id='map'></div>
         </section>
       </div>
     </main>
