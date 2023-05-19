@@ -54,6 +54,14 @@ button {
 
 button:hover {
   font-size: 15px;
-  padding: 2px;
-  width: 6%;
+  padding: 3px;
+  width: 7%;
+}
+
+@media (max-width: 1000px) {
+  button {
+    padding: 2px;
+    font-size: 10px;
+    width: 12%;
+  }
 }

@@ -66,11 +66,11 @@ input:hover {
 
 #map {
   width: 50vw;
-  height: 25%;
+  height: 30%;
 }
 
-@media (max-width: 1300px) {
-  #map {
-    height: 40%;
+@media (max-width: 750px) {
+  .information {
+    font-size: 15px;
   }
 }

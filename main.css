@@ -128,3 +128,35 @@
   width: 60%;
   margin-left: 20%;
 }
+
+@media (max-width: 1500px) {
+  .tvåan {
+    flex-direction: column;
+    padding-left: 15%;
+  }
+
+  .f1 {
+    margin-top: 5vh;
+  }
+
+  .textbubbla {
+    height: 50%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .text_i_bubbla {
+    font-size: 10px;
+  }
+
+  .textbubbla {
+    height: 70%;
+    width: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  .minirubrik {
+    font-size: 20px;
+  }
+}

@@ -167,3 +167,9 @@ li {
     height: 40%;
   }
 }
+
+@media (max-width: 750px) {
+  .kontakter {
+    font-size: 13px;
+  }
+}
